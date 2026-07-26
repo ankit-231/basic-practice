@@ -57,8 +57,13 @@ print("my_func.__defaults__:", my_func.__defaults__)
 
 """
 The code object representing the compiled function body.
+
+compiled bytecode that Python executes. The bytecode could be freshly compiled from the source code, or it could be loaded from a .pyc file. 
 """
 print("my_func.__code__:", my_func.__code__)
+
+# you can print the bytecode
+print("my_func.__code__.co_code:", my_func.__code__.co_code)
 
 print("---------------------------------------------------------------------------")
 
