@@ -9,3 +9,7 @@ print(ord_a)
 
 chr_a = chr(ord_a)  # Output: 'a' - Convert the code point back to the character.
 print(chr_a)
+
+b = 98
+chr_b = chr(b)  # Output: 'b' - The character represented by the Unicode code point 98.
+print(chr_b)
