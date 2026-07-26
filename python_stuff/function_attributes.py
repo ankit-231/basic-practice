@@ -115,3 +115,5 @@ Added in version 3.12.
 print("a".__str__)
 print("a".__str__.__str__)
 print("a".__str__.__str__.__str__)
+
+"""See infinite_attribute_paradox.py"""
